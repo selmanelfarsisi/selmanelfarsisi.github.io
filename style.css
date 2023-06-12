@@ -151,16 +151,16 @@ header.sticky {
 }
 
 header .logo {
-	color: #fff;
-	font-size: 24px;
+	font-size: 32px;
+        background: -webkit-linear-gradient(#66ffff, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 	text-transform: uppercase;
-	text-decoration: none;
-	font-weight: 700;
 	letter-spacing: 2px;
 }
 
 header.sticky .logo {
-	color: #111;
+	color: linear-gradient(#66ffff, #333);
 }
 
 header ul {
