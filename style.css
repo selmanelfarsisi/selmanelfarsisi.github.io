@@ -114,7 +114,9 @@ img
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+  .text  {
+  	display: none;
+  }
 }
 
 .btn {
@@ -489,7 +491,7 @@ img {
 		z-index: 1000;
 	}
 	header .logo{
-		font-size: 22px;
+		font-size: 10px;
 	}
 
 	.menu {
