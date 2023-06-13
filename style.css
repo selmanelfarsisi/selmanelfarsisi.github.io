@@ -146,12 +146,11 @@ header.sticky {
 }
 
 header .logo {
-	font-size: 32px;
+	font-size: 28px;
         background: -webkit-linear-gradient(#66ffff, #333);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 header.sticky .logo {
