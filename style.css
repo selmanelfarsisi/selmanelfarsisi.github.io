@@ -397,8 +397,12 @@ img {
 		padding: 20px 50px;
 		z-index: 1000;
 	}
+	header .logo
+	{
+		font-size: 20px;
+	}
 	.text {
-  	display: none;
+  	     display: none;
         }
 
 	.menu {
@@ -515,8 +519,12 @@ img {
 	header .sticky {
 		padding: 20px 20px;
 	}
+	header .logo
+	{
+		font-size: 20px;
+	}
 	.text {
-  	display: none;
+  	       display: none;
         }
 
 	.banner {
