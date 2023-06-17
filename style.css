@@ -437,7 +437,7 @@ img {
 		background: url(menu.png);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 30px;
+		background-size: 20px;
 		cursor: pointer;
 	}
 
@@ -446,7 +446,7 @@ img {
 		background: url(close.png);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 25px;
+		background-size: 15px;
 		cursor: pointer;
 	}
 
