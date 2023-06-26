@@ -177,9 +177,38 @@ img {
 }
 
 .about {
-	background: url(aboutbg.avif);
-	background-position: center;
-	background-size: cover;
+  width: 100%;
+  background: url(aboutbg.avif);
+  color: #fff;
+}/* Main heading */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color:  #1a53ff;
+}/* Subheading */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:  #1a53ff;
+}/* Paragraph text */
+p {
+  margin-bottom: 20px;
+}/* Profile image */
+.profile-image {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}/* Responsive styles */
+@media (max-width: 600px) {
+  .about {
+    padding: 20px;
+  }  h1 {
+    font-size: 28px;
+  }  h2 {
+    font-size: 20px;
+  }
 }
 
 .services {
