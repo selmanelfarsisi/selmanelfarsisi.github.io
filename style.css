@@ -453,6 +453,7 @@ p {
 		background-repeat: no-repeat;
 		background-size: 25px;
 		cursor: pointer;
+		background-color: #00ff00;
 	}
 
 	.toggle.active 
@@ -462,6 +463,7 @@ p {
 		background-repeat: no-repeat;
 		background-size: 20px;
 		cursor: pointer;
+		background-color: red;
 	}
 
 	header .sticky .toggle {
