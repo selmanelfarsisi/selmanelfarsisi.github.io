@@ -451,7 +451,7 @@ p {
 		background: url(menu.png);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 15px;
+		background-size: 21px;
 		cursor: pointer;
 		background-color: #00ff00;
 	}
@@ -461,7 +461,7 @@ p {
 		background: url(close.png);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 15px;
+		background-size: 22px;
 		cursor: pointer;
 		background-color: red;
 	}
