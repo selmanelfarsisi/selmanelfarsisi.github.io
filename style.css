@@ -166,6 +166,11 @@ img {
   background: url(aboutbg.avif);
   color: #fff;
 }/* Main heading */
+.youtube
+{
+	width: 500px;
+	height: 281px;
+}
 h1 {
   font-size: 32px;
   margin-bottom: 20px;
