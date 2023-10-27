@@ -201,8 +201,33 @@ p {
   }
 }
 
-.services {
-	background: #111;
+.services::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: backgroundAnimation 2s infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(to right, #ff5733, #6c63ff);
+  }
+  25% {
+    background: linear-gradient(to right, #6c63ff, #ff5733);
+  }
+  50% {
+    background: linear-gradient(to right, #ff5733, #6c63ff);
+  }
+  75% {
+    background: linear-gradient(to right, #6c63ff, #ff5733);
+  }
+  100% {
+    background: linear-gradient(to right, #ff5733, #6c63ff);
+  }
 }
 
 .heading.white {
@@ -219,7 +244,8 @@ p {
 */
 .services .content .servicesBx {
 	padding: 40px 20px;
-	background: #222;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 	color: #fff;
 	max-width: 340px;
 	margin: 20px;
