@@ -146,33 +146,30 @@
 			<button onclick="myFunction()" class="btn" id="myBtn">View More</button>
 		</div>
 	</section>
-	<section class="testimonial" id="testimonial">
-		<div class="heading">
-			<h2>Education</h2>
-			<p>My eaducation Background</p>
-		</div>
-		<div class="content">
-			<div class="testimonialBx">
-				<p>I started my web developnt journey since 2021, i'm frontend developer,knowledgable in <abbr title="Heyper Text Markup Language">&lt;HTML&gt;!</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and Javascript. Highly accomplished and user-focused developer adept to plan technical writing and excution of functional specification for websites and apps.</p><br>
-				<h4>Languages</h4>
-				<p>Arabic</p>
-				<p>Somali</p>
-				<p>English</p>
-				<p>Turkish</p>
-				<h3>Salman El Faarisi<br><span>Web Developer</span></h3>
-			</div>
-			<div class="testimonialBx">
-				<p>My struggle started since my childhood when i was 4, as a Somali Cumminity as soon as we grow up enough to read and write we go to Kuran school (Dugsi Quraan) and i love that beautiful tradition of us.</p><br>
-				<h4>Elementry and primary   2008-2014</h4>
-				<p>Sinai Primary Scool, Luuq. Gedo/Somalia</p>
-				<h4>High School 2014-2018</h4>
-				<p>Luuq Ganane Secondary Scool, Luuq. Gedo/Somalia</p>
-				<h4>University/college  2021....</h4>
-				<p>Istanbul Nisantasi University Istanbul/Turkiye</p>
-			</div>
-		</div>
-	</section>
-	<section class="contact" id="contact">
+	<section class="education-background" id="educationBackground">
+        <div class="container">
+            <h2>My Education Journey</h2>
+            <div class="background-item" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                <img src="school.png" alt="School Image">
+                <div class="overlay">
+                    <h3>High School</h3>
+                    <p>My struggle started since my childhood when i was 4, as a Somali Cumminity as soon as we grow up enough to read and write we go to Kuran school (Dugsi Quraan) and i love that beautiful tradition of us.</p>
+                    <h4>High School 2014-2018</h4>
+                    <p>Luuq Ganane Secondary Scool, Luuq. Gedo/Somalia</p>
+                </div>
+            </div>
+
+            <div class="background-item" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                <img src="university.png" alt="University Image">
+                <div class="overlay">
+                    <h3>University</h3>
+                    <h4>Started  2021....Expected 2024</h4>
+                    <p>Istanbul Nisantasi University Istanbul/Turkiye</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
 			<div class="box">
 				<h3 style="color: #808080;">Get in Touch:</h3>
 				<a href="https://wa.me/905449692408" style="display: block; font-size: 1.2rem; color: #808080; padding: 1rem;"><i class="fa-brands fa-whatsapp" style="color: white; padding-right: .5rem;"></i> Whatsapp</a>
@@ -264,6 +261,15 @@
             btnText.innerHTML = "view less"; 
             moreText.style.display = "inline";
           }
+        }
+
+
+	function showOverlay(element) {
+            element.querySelector('.overlay').style.opacity = '1';
+        }        
+
+        function hideOverlay(element) {
+            element.querySelector('.overlay').style.opacity = '0';
         }
 		
 	</script>
